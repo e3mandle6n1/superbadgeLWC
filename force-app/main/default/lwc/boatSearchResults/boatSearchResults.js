@@ -1,10 +1,13 @@
 /**
+ * Boat Search Results
+ * @description - Boat Search Results component to search for boats
  * @description       : boatSearchResults.js
  * @author            : Emandleni M
  * @group             :
  * @last modified on  : 2024-06-19
  * @last modified by  : Emandleni M
  */
+
 import { api, LightningElement, track, wire } from "lwc";
 import { publish, MessageContext } from "lightning/messageService";
 import { ShowToastEvent } from "lightning/platformShowToastEvent";
@@ -19,15 +22,6 @@ const SUCCESS_VARIANT = "success";
 const ERROR_TITLE = "Error";
 const ERROR_VARIANT = "error";
 
-
-/**
- * Boat Search Results
- * @description - LWC for displaying boat search results
- * @requires - boatTypeId
- * @wire - getBoats
- * @wire - MessageContext
- * @publishes - BOATMC message channel
- */
 export default class BoatSearchResults extends LightningElement {
   @api
   selectedBoatId;
@@ -166,6 +160,7 @@ export default class BoatSearchResults extends LightningElement {
   }
 
   // Check the current value of isLoading before dispatching the doneloading or loading custom event
+
   notifyLoading(isLoading) {
     if (isLoading) {
       this.dispatchEvent(new CustomEvent("loading"));
