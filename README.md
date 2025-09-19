@@ -18,33 +18,6 @@ This repository contains the Lightning Web Components (LWC) and configuration re
 - **Apex Controllers**: Provide data and business logic for LWCs
 - **Custom Objects**: Includes Boat, BoatType, and related records
 
-## Setup Instructions
-
-1. **Clone the Repository**
-   ```bash
-   git clone <your-repo-url>
-   ```
-
-2. **Authorize Your Salesforce Org**
-   ```bash
-   sfdx auth:web:login -a <your-org-alias>
-   ```
-
-3. **Push Source to Org**
-   ```bash
-   sfdx force:source:push
-   ```
-
-4. **Import Sample Data**
-   ```bash
-   sfdx force:data:tree:import -p data/Boat__c-plan.json
-   ```
-
-5. **Assign Permission Sets**
-   ```bash
-   sfdx force:user:permset:assign -n Lightning_Web_Specialist
-   ```
-
 ## Project Structure
 
 - `force-app/main/default/lwc/` – Lightning Web Components
