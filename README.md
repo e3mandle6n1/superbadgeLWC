@@ -2,6 +2,11 @@
 
 This repository contains the Lightning Web Components (LWC) and configuration required for the Salesforce Trailhead **Lightning Web Specialist Superbadge** challenge.
 
+[![Salesforce Platform](https://img.shields.io/badge/platform-Salesforce%20Winter%20'26-blue.svg?logo=salesforce&logoColor=white)](https://www.salesforce.com/platform/)
+[![Lightning Web Components](https://img.shields.io/badge/LWC-ESLint%20v9-blue.svg?logo=salesforce&logoColor=white)](https://developer.salesforce.com/docs/component-library/)
+[![Apex](https://img.shields.io/badge/Apex-v65.0-blue.svg?logo=salesforce&logoColor=white)](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/)
+[![Salesforce DX](https://img.shields.io/badge/CLI-SFDX%20v2.x-blue.svg?logo=salesforce&logoColor=white)](https://developer.salesforce.com/tools/sfdxcli)
+
 ## Contents
 
 - Custom Lightning Web Components for the superbadge requirements
